@@ -1,0 +1,41 @@
+Du siehst gerade die Website zmk-gruenenplan.de in meinem Browser. Bitte nur lesen.
+Nicht einloggen, nichts absenden, nichts verändern.
+
+Aufgabe: Gib mir den kompletten Inhalt dieser Website als Text aus, damit ich sie 1:1
+nachbauen kann. Nichts zusammenfassen, nichts umschreiben, nichts weglassen, nichts
+dazuerfinden.
+
+Arbeite diese fünf Punkte der Reihe nach ab:
+
+1. Der komplette HTML-Quelltext der Startseite, von <!DOCTYPE bis </html>, in diesem Format:
+===== DATEI: index.html =====
+(hier der Quelltext)
+===== ENDE =====
+
+2. Alle Menuepunkte mit Titel und vollstaendiger URL, auch alle Unterpunkte von "Praxis"
+und alle Unterpunkte von "Behandlungsspektrum":
+===== DATEI: _menue.txt =====
+Titel | URL
+===== ENDE =====
+
+3. Oeffne jede Seite aus dieser Liste nacheinander und gib jeweils den kompletten
+Quelltext aus. Als Dateiname der URL-Pfad, zum Beispiel:
+===== DATEI: praxis/philosophie =====
+(hier der Quelltext)
+===== ENDE =====
+
+4. Alle Bild-Adressen, die auf zmk-gruenenplan.de liegen, inklusive Logo und der
+Hintergrundbilder aus dem CSS, eine pro Zeile:
+===== DATEI: _bilder.txt =====
+(URLs)
+===== ENDE =====
+
+5. Die Stylesheet-Datei des Templates komplett. Ihre Adresse steht in der Startseite
+im Tag <link rel="stylesheet">, meist unter templates/zmk2700/css/:
+===== DATEI: templates/zmk2700/css/template.css =====
+(hier der komplette CSS-Inhalt)
+===== ENDE =====
+
+Wenn die Antwort zu lang wird, teile sie auf mehrere Antworten auf und schreibe oben
+jeweils "Teil 1 von N". Trenne niemals mitten in einem Block. Wenn eine Seite nicht
+laedt oder etwas fehlt, schreibe genau das an die Stelle, statt es zu ergaenzen.
