@@ -1,0 +1,13 @@
+{
+  "name": "zmk-klon",
+  "private": true,
+  "description": "Werkzeuge für den Joomla-Klon von zmk-gruenenplan.de (Screenshots alt gegen neu)",
+  "type": "module",
+  "scripts": {
+    "screenshots": "node joomla-tools/screenshots.mjs",
+    "screenshots:neu": "node joomla-tools/screenshots.mjs --nur-neu"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}
