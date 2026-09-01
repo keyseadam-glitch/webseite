@@ -1,0 +1,31 @@
+{
+  "_hinweis": "Inhaltsstruktur der alten Seite zmk-gruenenplan.de. Quelle: Angaben aus dem Auftrag (Struktur, Adresse, Telefon, Sprechzeiten, Claim). Texte mit body=null konnten NICHT gecrawlt werden (Host im Arbeits-Netz gesperrt) und sind OFFEN. joomla-tools/extract.php füllt diese Datei aus dem wget-Spiegel (quelle/mirror) automatisch. Nichts erfinden.",
+  "site": { "name": "ZMK Grünenplan", "claim": "We like it smiley!" },
+  "kategorien": ["Praxis", "Behandlungsspektrum", "Allgemein"],
+  "menu": [
+    { "title": "Home", "alias": "home", "artikel": "startseite", "home": true, "_offen": "Ob die alte Seite einen sichtbaren Menüpunkt 'Home' hat, ist ungeprüft." },
+    { "title": "Praxis", "alias": "praxis", "typ": "heading", "_offen": "Ob 'Praxis' selbst eine Seite ist oder nur Oberpunkt, ist ungeprüft.",
+      "children": [
+        { "title": "Philosophie", "alias": "philosophie", "artikel": "philosophie" },
+        { "title": "Räume", "alias": "raeume", "artikel": "raeume" },
+        { "title": "Team", "alias": "team", "artikel": "team" }
+      ] },
+    { "title": "Behandlungsspektrum", "alias": "behandlungsspektrum", "typ": "heading",
+      "_offen": "11 Unterseiten laut Auftrag. Titel, Reihenfolge und Texte sind ungecrawlt – werden von extract.php aus dem Spiegel übernommen.",
+      "children": [] },
+    { "title": "Kontakt", "alias": "kontakt", "artikel": "kontakt" },
+    { "title": "Links", "alias": "links", "artikel": "links" },
+    { "title": "Impressum", "alias": "impressum", "artikel": "impressum" }
+  ],
+  "artikel": {
+    "startseite":   { "title": "Home", "kategorie": "Allgemein", "body": null },
+    "philosophie":  { "title": "Philosophie", "kategorie": "Praxis", "body": null },
+    "raeume":       { "title": "Räume", "kategorie": "Praxis", "body": null },
+    "team":         { "title": "Team", "kategorie": "Praxis", "body": null },
+    "kontakt":      { "title": "Kontakt", "kategorie": "Allgemein",
+      "_quelle": "Adresse, Telefon und Sprechzeiten laut Auftrag. Der originale Wortlaut/Aufbau der Kontaktseite ist ungeprüft.",
+      "body": "<p>Zahnarztpraxis ZMK Grünenplan<br>Dr. M. Khayami<br>Untere Hilsstr. 16<br>31073 Grünenplan</p><p>Telefon: 05187-75656</p><h3>Sprechzeiten</h3><table class=\"sprechzeiten\"><tr><th>Mo</th><td>8–13 Uhr</td><td>14–18 Uhr</td></tr><tr><th>Di</th><td>8–13 Uhr</td><td>14–18 Uhr</td></tr><tr><th>Mi</th><td>8–13 Uhr</td><td></td></tr><tr><th>Do</th><td>8–13 Uhr</td><td>14–18 Uhr</td></tr><tr><th>Fr</th><td>8–13 Uhr</td><td></td></tr></table>" },
+    "links":        { "title": "Links", "kategorie": "Allgemein", "body": null },
+    "impressum":    { "title": "Impressum", "kategorie": "Allgemein", "body": null }
+  }
+}

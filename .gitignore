@@ -1,0 +1,21 @@
+# Joomla-Kern (offizielles Paket 6.1.3) wird per setup.sh geladen, nicht eingecheckt.
+/joomla/*
+!/joomla/templates/
+/joomla/templates/*
+!/joomla/templates/zmk2700/
+!/joomla/images/
+/joomla/images/banners/
+/joomla/images/headers/
+/joomla/images/sampledata/
+/joomla/images/index.html
+/joomla/images/joomla_black.png
+/joomla/images/powered_by.png
+!/joomla/router.php
+/joomla/configuration.php
+# Crawl-Ergebnis der alten Seite (auf dem Mac erzeugt)
+# quelle/mirror wird bewusst eingecheckt (Rohdaten der alten Seite)
+/quelle/crawl.log
+# lokal
+/.local/
+*.log
+/node_modules/
